@@ -5,19 +5,17 @@
     <title>Егорины шалости</title>
 
     <style>
-      p[title="hello"]
+      a[href$=".html"]
       {
-        color: red;
+        font-size: 20pt;
       }
 		</style>
   </head>
   <body>
-    <p title="hello">Я с titlem который равен "hello"</p>
+    <a href="aboba.html" title="hello">Я с href который заканчивается на ".html"</a>
     <br>
-    <p>Я без titla</p>
+    <a href="aboba.css">Я с href который не заканчивается на ".html"</a>
     <br>
-    <p class="A">Я тоже без titla</p>
-    <br>
-    <h1 title="hello">Я тоже с titlem который равен "hello", но не абзац</h1>
+    <a href="aboba.html" class="A">Я тоже с href который заканчивается на ".html"</a>
   </body>
 </html>
